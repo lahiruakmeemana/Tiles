@@ -1,0 +1,43 @@
+
+this for only rectrangle
+
+
+floor area = floor height * floor width
+
+One tile area = tile height * tile width
+
+tile require for floor =  floor area 
+                          ______________
+                         One tile area  
+
+
+assume skirting height = X 
+
+assume Door width is      = Y 
+
+skirting length = {[(2(floor height)) + (2(floor width))] - Y  }
+
+tile require for skirting = skirting length
+                             ______________
+
+                               tile width
+
+
+skirting quantity can cut from one tile = One tile area
+                                          ______________
+                                                X
+
+
+total tile require for skirting = tile require for skirting 
+                                   ______________
+
+                                     skirting quantity can cut from one tile 
+
+
+
+full Tile amount we need for floor = total tile require for skirting + tile require for floor
+
+
+add 5% of wastage =      full Tile amount we need for floor *         5
+                    ( {                                       ______________    } + full Tile amount we need for floor )
+                                                                    100
